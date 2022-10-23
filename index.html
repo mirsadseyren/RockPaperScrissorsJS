@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>rockpaperscrissors</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <wrapper id='wrapper' class="wrapper">
+    <div class="blinkers">
+      <span class = "blink" id = "rock_blink"> </span>
+      <span class = "blink" id = "paper_blink"> </span>
+      <span class = "blink" id = "scrissors_blink"> </span>
+    </div>
+    
+    
+    <div class="buttons">
+      <button class="button" id="rock">✊</button>
+      <button class="button" id="paper">🤚</button>
+      <button class="button" id ="scrissors">✌</button>
+
+    </div>
+  
+    <div class="resultContainer">
+      <b>Result</b>  
+      <br>
+
+      <div>
+        result: <span id = "result"></span>
+      </div>
+      <div>
+        <b>Scores:</b>
+        <br>
+        Computer:
+        <span class = "score" id = "computer_score">0</span>
+        You:
+        <span class = "score" id = "player_score">0</span>
+      </div>
+
+      <br>
+      
+      <div>
+        <button class="button" id="res">🔴</button>
+      </div>
+    </div>
+  </wrapper>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
